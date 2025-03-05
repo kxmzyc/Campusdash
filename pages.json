@@ -1,0 +1,95 @@
+{
+	"pages": [ 
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "🍔CampusDash🍔",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#ffffff",
+				"navigationStyle": "custom",
+				"titleNView": {
+					"titleColor": "#333",
+					"titleSize": "36rpx",
+					"titleFontWeight": "bold"
+				}
+			}
+		},
+		{
+			"path": "pages/more/more",
+			"style": {
+				"navigationBarTitleText": "更多服务",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shop/detail",
+			"style": {
+				"navigationBarTitleText": "商家详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/user/profile",
+			"style": {
+				"navigationBarTitleText": "个人信息",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/address/list",
+			"style": {
+				"navigationBarTitleText": "收货地址管理"
+			}
+		},
+		{
+			"path": "pages/address/edit",
+			"style": {
+				"navigationBarTitleText": "编辑地址"
+			}
+		},
+		{
+			"path": "pages/order/checkout",
+			"style": {
+				"navigationBarTitleText": "订单结算",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"tabBar": {
+			"color": "#666",
+			"selectedColor": "#ffd161",
+			"borderStyle": "white",
+			"backgroundColor": "#ffffff",
+			"list": [
+				{
+					"pagePath": "pages/index/index",
+					"text": "外卖",
+					"iconPath": "static/tabs/home.png",
+					"selectedIconPath": "static/tabs/home-active.png"
+				},
+				{
+					"pagePath": "pages/more/more",
+					"text": "更多",
+					"iconPath": "static/tabs/more.png",
+					"selectedIconPath": "static/tabs/more-active.png"
+				}
+			]
+		}
+	},
+	"uniIdRouter": {},
+	"usingComponents": {
+		"picker": "/static/components/picker/picker"
+	}
+}

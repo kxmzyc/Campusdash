@@ -1,0 +1,24 @@
+# AI代码辅助设置
+# 电商应用个性化配置
+
+# 代码生成偏好
+language = "javascript"          # 主要编程语言
+framework = "uni-app"            # 使用的框架
+style_format = "vue-single-file" # 使用单文件组件
+
+# 注释设置
+comment_language = "chinese"     # 使用中文注释
+detailed_comments = true         # 详细注释开关
+
+# 代码风格
+tab_size = 2                     # 缩进大小
+quotes = "single"                # 使用单引号
+semicolons = true                # 使用分号
+
+# 命名规则
+naming_convention = "camelCase"  # 变量和函数使用驼峰命名法
+component_naming = "PascalCase"  # 组件使用帕斯卡命名法
+
+# 应用相关设置
+app_type = "food-delivery"       # 应用类型：外卖应用
+data_mock = true                 # 使用mock数据 
